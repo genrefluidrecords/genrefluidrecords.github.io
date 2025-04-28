@@ -1,54 +1,72 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Cadence AF | Batteries Included</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #0d0d0d;
+  color: #f1f1f1;
+}
 
-<header>
-  <div class="hero">
-    <h1>Cadence AF</h1>
-    <p>Not here to fit in — here to transform.</p>
-    <div class="buttons">
-      <a href="#music" class="btn">Listen Now</a>
-      <a href="#video" class="btn">Watch Now</a>
-      <a href="https://distrokid.com/hyperfollow/cadenceaf/batteries-included" class="btn" target="_blank">Listen Everywhere</a>
-    </div>
-  </div>
-</header>
+header {
+  background: url('hero-poster.png') no-repeat center center/cover;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
 
-<main>
-  <section id="about">
-    <h2>About</h2>
-    <p>A MKE native and the fearless founder of GenreFluid Records, Cadence AF is tearing down the walls of genre, expectation, and the patriarchal status quo.
-    Her debut single "Batteries Included" punches through the noise with bold alt-pop energy, giving voice to the anger, exhaustion, and rising rebellion of women everywhere. It's a siren call for a generation tired of men molded by a broken system — and a promise that the future belongs to WOMEN.
-    With her upcoming album on the horizon, Cadence AF is forging a new soundscape where autonomy, art, and activism collide.
-    <strong>Batteries Included. Revolution guaranteed.</strong></p>
-  </section>
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
 
-  <section id="music">
-    <h2>Listen to "Batteries Included"</h2>
-    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2iCLXAaeivC6WJJ3AGmU7s?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-  </section>
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
 
-  <section id="video">
-    <h2>Watch the Official Video</h2>
-    <iframe width="100%" height="315" src="https://www.youtube.com/embed/sHpx41Dco2A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </section>
+.buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-  <section id="coming-soon">
-    <h2>Album Coming Soon</h2>
-    <p>Stay tuned for Cadence AF's upcoming full-length album release!</p>
-  </section>
-</main>
+.btn {
+  background: #ff007f;
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
 
-<footer>
-  <p>© 2025 GenreFluid Records | Cadence AF</p>
-</footer>
+.btn:hover {
+  background: #cc0066;
+}
 
-</body>
-</html>
+main {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
 
+section {
+  margin-bottom: 60px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ff007f;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  background-color: #1a1a1a;
+  color: #aaa;
+}
