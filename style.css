@@ -1,1 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cadence AF | Batteries Included</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="hero">
+    <h1>Cadence AF</h1>
+    <p>Not here to fit in — here to transform.</p>
+    <div class="buttons">
+      <a href="#music" class="btn">Listen Now</a>
+      <a href="#video" class="btn">Watch Now</a>
+      <a href="https://distrokid.com/hyperfollow/cadenceaf/batteries-included" class="btn" target="_blank">Listen Everywhere</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section id="about">
+    <h2>About</h2>
+    <p>A MKE native and the fearless founder of GenreFluid Records, Cadence AF is tearing down the walls of genre, expectation, and the patriarchal status quo.
+    Her debut single "Batteries Included" punches through the noise with bold alt-pop energy, giving voice to the anger, exhaustion, and rising rebellion of women everywhere. It's a siren call for a generation tired of men molded by a broken system — and a promise that the future belongs to WOMEN.
+    With her upcoming album on the horizon, Cadence AF is forging a new soundscape where autonomy, art, and activism collide.
+    <strong>Batteries Included. Revolution guaranteed.</strong></p>
+  </section>
+
+  <section id="music">
+    <h2>Listen to "Batteries Included"</h2>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2iCLXAaeivC6WJJ3AGmU7s?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </section>
+
+  <section id="video">
+    <h2>Watch the Official Video</h2>
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/sHpx41Dco2A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </section>
+
+  <section id="coming-soon">
+    <h2>Album Coming Soon</h2>
+    <p>Stay tuned for Cadence AF's upcoming full-length album release!</p>
+  </section>
+</main>
+
+<footer>
+  <p>© 2025 GenreFluid Records | Cadence AF</p>
+</footer>
+
+</body>
+</html>
 
